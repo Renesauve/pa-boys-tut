@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
+
 function Hero(props) {
+  console.log(props);
   const { title, description, image } = props;
   return (
     <div>
