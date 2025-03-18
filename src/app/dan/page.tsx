@@ -4,7 +4,7 @@ import Hero from "@/components/hero";
 function index(props) {
   return (
     <div>
-      <h1>Hello Dan</h1>
+      <h1>Hello DanIEL</h1>
       <Hero
         title={"Dans Hero"}
         description={"Dans Hero Page description"}
