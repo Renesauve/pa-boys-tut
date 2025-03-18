@@ -1,10 +1,10 @@
 import React from "react";
 import Hero from "@/components/hero";
 
-function index(props) {
+function index(_props: any) {
   return (
     <div>
-      <h1>Hello DanIEL</h1>
+      <h1>Hello DanIEL from arizona</h1>
       <Hero
         title={"Dans Hero"}
         description={"Dans Hero Page description"}
