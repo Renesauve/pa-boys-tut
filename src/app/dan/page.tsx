@@ -1,17 +1,24 @@
 import React from "react";
 import Hero from "@/components/hero";
+import Pricing from "@/components/pricing-sections";
+import Footer from "@/components/footer";
+import Testimonial from "@/components/testimonial";
+import Team from "@/components/team-section";
+import Navbar from "@/components/navbar";
 
-function index(_props: any) {
+function IndexPage(_props: any) {
   return (
     <div>
-      <h1>Hello DanIEL from arizona</h1>
-      <Hero
-        title={"Dans Hero"}
-        description={"Dans Hero Page description"}
-        image={"https://i.imgur.com/4p8ebpS.jpeg"}
-      />
+      <div className="flex flex-col items-center text-center space-y-2 mx-2">
+        <Hero />
+      </div>
+      <Navbar />
+      <Pricing />
+      <Testimonial />
+      <Team />
+      <Footer />
     </div>
   );
 }
 
-export default index;
+export default IndexPage;
